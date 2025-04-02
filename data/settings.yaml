@@ -1,0 +1,43 @@
+telegram:
+  useFirstNameInsteadOfUsername: false
+  colonAfterSenderName: false
+  skipOldMessages: true
+  sendEmojiWithStickers: true
+  useCustomEmojiFilter: false
+  replaceAtWithHash: false
+  replaceExcessiveSpaces: false
+  removeNewlineSpaces: false
+  suppressFileTooBigMessages: false
+  suppressThisIsPrivateBotMessage: false
+  token: env
+discord:
+  skipOldMessages: true
+  useNickname: true
+  replyLength: 100
+  maxReplyLines: 2
+  suppressThisIsPrivateBotMessage: false
+  enableCustomStatus: false
+  customStatusMessage: TediCross
+  useEmbeds: auto
+  token: env
+debug: true
+messageTimeoutAmount: 24
+messageTimeoutUnit: hours
+persistentMessageMap: false
+bridges:
+  - name: MV Test Bridge
+    direction: both
+    telegram:
+      chatId: -4742998569
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357023039128211700'
+      relayJoinMessages: true
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
