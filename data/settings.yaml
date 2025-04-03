@@ -8,19 +8,19 @@ telegram:
   replaceExcessiveSpaces: false
   removeNewlineSpaces: false
   suppressFileTooBigMessages: false
-  suppressThisIsPrivateBotMessage: false
+  suppressThisIsPrivateBotMessage: true
   token: env
 discord:
   skipOldMessages: true
   useNickname: true
   replyLength: 100
   maxReplyLines: 2
-  suppressThisIsPrivateBotMessage: false
+  suppressThisIsPrivateBotMessage: true
   enableCustomStatus: false
   customStatusMessage: TediCross
   useEmbeds: auto
   token: env
-debug: true
+debug: false
 messageTimeoutAmount: 24
 messageTimeoutUnit: hours
 persistentMessageMap: false
@@ -36,6 +36,102 @@ bridges:
     discord:
       channelId: '1357023039128211700'
       relayJoinMessages: true
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
+  - name: MV Discussions
+    direction: both
+    telegram:
+      chatId: -1001494631278
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357048861444673767'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
+  - name: MV Outils
+    direction: both
+    telegram:
+      chatId: -1002309370444
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357049090516586660'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
+  - name: MV Formation
+    direction: both
+    telegram:
+      chatId: -1002251014824
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357049168937353216'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
+  - name: MV Campagne
+    direction: both
+    telegram:
+      chatId: -1002463344880
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357049222800605375'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
+  - name: MV Partenariat
+    direction: both
+    telegram:
+      chatId: -1002465789555
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357049307227754536'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
+  - name: MV Bénévoles
+    direction: both
+    telegram:
+      chatId: -1002325055671
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1357049435183386865'
+      relayJoinMessages: false
       relayLeaveMessages: false
       sendUsernames: true
       crossDeleteOnTelegram: false
