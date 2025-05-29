@@ -3,3 +3,6 @@
 
 # Data/Cache
 /data/*.json
+
+# IDE
+/.idea

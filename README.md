@@ -1,9 +1,9 @@
-Docker Compose for a Bridge Bot between Telegram and Discord.
+# Docker Compose for a Bridge Bot between Telegram and Discord.
 
 https://github.com/TediCross/TediCross
 
-Telegram Channels to Connect:
-- https://t.me/+CR_KgmxmrXswYjg0  (id: `-4742998569`)
+Telegram:
+- https://t.me/+CR_KgmxmrXswYjg0
 
 Discord Server:
 - https://discord.gg/k9YRuZPSZs

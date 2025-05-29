@@ -1,8 +1,10 @@
 # Tedicross Bot, bridging Telegram and Discord
-# Start with:
-#     docker compose up
-# Public Settings are in ./data/settings.yaml
-# Secrets are in the .env file
+# 1. Setup as per the README.
+# 2. Start with:
+#     docker compose up --detach
+#
+# Public Settings are in `./data/settings.yaml`.
+# Secrets ought to be in the `.env` file.
 
 services:
     tedicross:
@@ -10,6 +12,7 @@ services:
         image: tedicross/tedicross:v0.12.4
         container_name: tedicross
         restart: unless-stopped
-        env_file: .env
+        env_file:
+        - .env
         volumes:
         - ./data:/opt/TediCross/data
