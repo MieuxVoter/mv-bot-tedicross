@@ -137,3 +137,19 @@ bridges:
       crossDeleteOnTelegram: false
       disableWebPreviewOnTelegram: false
       useEmbeds: auto
+  - name: MV Organisation
+    direction: both
+    telegram:
+      chatId: -4900376408
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnDiscord: false
+    discord:
+      channelId: '1384394065646321685'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: false
+      disableWebPreviewOnTelegram: false
+      useEmbeds: auto
